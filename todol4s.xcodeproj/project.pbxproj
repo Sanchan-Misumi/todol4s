@@ -14,6 +14,7 @@
 		EEC7C6D32154749500CDAEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC7C6D12154749500CDAEC7 /* LaunchScreen.storyboard */; };
 		EEC7C6DE2154749600CDAEC7 /* todol4sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7C6DD2154749600CDAEC7 /* todol4sTests.swift */; };
 		EEC7C6E92154749600CDAEC7 /* todol4sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7C6E82154749600CDAEC7 /* todol4sUITests.swift */; };
+		EEC7C6F921547CA300CDAEC7 /* todoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC7C6F821547CA300CDAEC7 /* todoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EEC7C6E42154749600CDAEC7 /* todol4sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todol4sUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC7C6E82154749600CDAEC7 /* todol4sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todol4sUITests.swift; sourceTree = "<group>"; };
 		EEC7C6EA2154749600CDAEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC7C6F821547CA300CDAEC7 /* todoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EEC7C6CF2154749500CDAEC7 /* Assets.xcassets */,
 				EEC7C6D12154749500CDAEC7 /* LaunchScreen.storyboard */,
 				EEC7C6D42154749500CDAEC7 /* Info.plist */,
+				EEC7C6F821547CA300CDAEC7 /* todoViewController.swift */,
 			);
 			path = todol4s;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC7C6F921547CA300CDAEC7 /* todoViewController.swift in Sources */,
 				EEC7C6CB2154749300CDAEC7 /* ViewController.swift in Sources */,
 				EEC7C6C92154749300CDAEC7 /* AppDelegate.swift in Sources */,
 			);
