@@ -31,27 +31,30 @@ class ViewController: UIViewController {
     @IBAction func save(_ sender: Any) {
         
         if textField.text != "" {
-        saveData.set(textField.text, forKey:"todo")
-        todoArray.append(saveData.object(forKey: "todo") as Any)
+            
+        todoArray.append(textField.text as Any)
+        saveData.set(todoArray, forKey:"todo")
+//        todoArray.append(saveData.object(forKey: "todo") as Any)
+            
         print(todoArray)
         
-        performSegueToResult()
+//        performSegueToResult()
         } else {
             
         }
         
     }
     
-    func performSegueToResult(){
-        performSegue(withIdentifier: "toToDoViewController", sender: nil)
-    }
-    
-    //セグエを準備する時に呼ばれるメソッド
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toToDoViewController"{
-            let todoViewController = segue.destination as! todoViewController
-            todoViewController.todoArray = self.todoArray as! [String]
-        }
-    }
+//    func performSegueToResult(){
+//        performSegue(withIdentifier: "toToDoViewController", sender: nil)
+//    }
+//
+//    //セグエを準備する時に呼ばれるメソッド
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "toToDoViewController"{
+//            let todoViewController = segue.destination as! todoViewController
+//            todoViewController.todoArray = self.todoArray as! [String]
+//        }
+//    }
 }
 
